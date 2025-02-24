@@ -1,0 +1,43 @@
+/UnityGame/[Libraries]
+/UnityGame/[Ll]ibrary/
+
+# User-specific files
+/UnityGame/UserSettings/
+
+# Build folders
+/UnityGame/[Bb]uild/
+#[Bb]uilds/
+
+# OS generated files
+/UnityGame/.DS_Store
+/UnityGame/Thumbs.db
+# User-specific files
+.user
+.userprefs
+
+# Build results
+/UnityGame/build/
+/UnityGame/Build/
+/UnityGame/builds/
+
+# Uncomment this line if you want to ignore all meta files
+# *.meta
+
+# Windows thumbnail cache files
+/UnityGame/Thumbs.db
+
+# macOS directory settings
+.DS_Store
+
+# JetBrains Rider IDE settings
+.idea/
+
+# VS Code settings
+/UnityGame/.vscode/
+
+# Unity's temp files
+/UnityGame/Library/
+/UnityGame/Temp/
+
+# Unity auto-generated file
+/UnityGame/obj/
