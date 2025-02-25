@@ -1,0 +1,289 @@
+Unity Editor version:    6000.0.32f1 (b2e806cf271c)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/thientran/Downloads/snowballfight/UnityGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54413
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/thientran/Downloads/snowballfight/UnityGame
+/Users/thientran/Downloads/snowballfight/UnityGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8111493120]  Target information:
+
+Player connection [8111493120]  * "[IP] 10.19.168.14 [Port] 0 [Flags] 2 [Guid] 693466105 [EditorId] 693466105 [Version] 1048832 [Id] OSXEditor(0,Thiens-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8111493120] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8111493120] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/thientran/Downloads/snowballfight/UnityGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56875
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001181 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (149ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (404ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (122ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1530ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (571ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7029 unused Assets / (4.9 MB). Loaded Objects now: 7666.
+Memory consumption went from 165.8 MB to 160.9 MB.
+Total: 13.554000 ms (FindLiveObjects: 0.931500 ms CreateObjectMapping: 0.311750 ms MarkObjects: 9.604833 ms  DeleteObjects: 2.705000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74647.682675 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(0fd8b293284934d9bb49858a0ad5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(0fd8b293284934d9bb49858a0ad5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '810260e2d84a413af8d536912741bae9') in 0.004733542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.902443 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(8170a8c7eb865484db16ef52bb89b70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(8170a8c7eb865484db16ef52bb89b70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67d6a2b7515c31a348b7d0903184610a') in 0.000798042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.243014 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b58205bb88a544d7c4654c35a1fbdf6d') in 4.127592791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.802697 seconds.
+  path: Assets/Materials/Penguin Body.mat
+  artifactKey: Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin Body.mat using Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92c2381b65adbfdf683b9a28f5b1eaf') in 0.036493625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.361765 seconds.
+  path: Assets/Prefabs/Penguin.prefab
+  artifactKey: Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Penguin.prefab using Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c3582ed7338099d957b618d3fba6db0') in 0.0594525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.480696 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4b47d252bc4e8d77fd6334abcf5e3e8') in 0.000321458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.028161 seconds.
+  path: Assets/Materials/Penguin Tummy.mat
+  artifactKey: Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin Tummy.mat using Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f969f9b8a7621ada0464493395ff8e9') in 0.008418334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.455705 seconds.
+  path: Assets/Materials/Penguin Black.mat
+  artifactKey: Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin Black.mat using Guid(01959b0c1bc4343f4a57723f14ef1538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98525e4cb98c07fa97c1762a1fa66680') in 0.008233458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.290400 seconds.
+  path: Assets/Materials/Penguin White.mat
+  artifactKey: Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin White.mat using Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a009fb32fd6629fa25281de5715a0dbf') in 0.00811925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.391599 seconds.
+  path: Assets/Materials/Penguin Orange.mat
+  artifactKey: Guid(1dbb87c72a4b44d3fb547b6e4e7cd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin Orange.mat using Guid(1dbb87c72a4b44d3fb547b6e4e7cd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '960067b1bb61b14f3ea86dd653b07db4') in 0.006952708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.568675 seconds.
+  path: Assets/Prefabs/Penguin.prefab
+  artifactKey: Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Penguin.prefab using Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7d64c76bfb2ed3b56a90c21656ba3a5') in 0.011267167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
