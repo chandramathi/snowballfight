@@ -1,10 +1,10 @@
 # Snowball Fight - Unity Game
 
 ## Team Members
-- thienkt@uw.edu
-- cmathi27@uw.edu
-- samganyx@uw.edu
-- yannihou@uw.edu
+- Thien Tran
+- Chandramathi
+- Sam Gan
+- Yanni Hou
 
 **Date:** February 18, 2025
 
