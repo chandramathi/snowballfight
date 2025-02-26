@@ -1,5 +1,5 @@
 # Snowball Fight - Unity Game
-![Snowball Fight](Assets/Resources/Thumbnail.png)
+![Snowball Fight](UnityGame/Assets/Resources/Thumbnail.png)
 ## Team Members
 - Thien Tran
 - Chandramathi
