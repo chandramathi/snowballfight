@@ -14,6 +14,7 @@
 # User-specific files
 .user
 .userprefs
+*.log
 
 # Build results
 /UnityGame/build/
