@@ -59,22 +59,22 @@
     <UnityVersion>6000.0.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/thientran/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/AspectGenerator.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/JobEntityGenerator.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.LambdaJobs.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.QueryBuilder.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.Query.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.Common.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Common.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.EntityQueryBulkOperations.dll" />
-    <Analyzer Include="/Users/thientran/Downloads/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.CodeFixes.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/AspectGenerator.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/JobEntityGenerator.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.Common.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Common.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="/Users/muzhumathimurugadass/Documents/Assignments/ComputerGraphics/finalProject/snowballfight/UnityGame/Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs" />
@@ -82,6 +82,7 @@
     <Compile Include="Assets/Scripts/SnowMan.cs" />
     <Compile Include="Assets/Scripts/PenguinMovemnt.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/Scripts/SnowballThrower.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
@@ -597,6 +598,14 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/iOSSupport/UnityEditor.Apple.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Applications/Unity/Hub/Editor/6000.0.33f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
@@ -1089,10 +1098,6 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Entities.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Physics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1165,12 +1170,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.Serialization.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Collections.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Physics.Hybrid">
       <HintPath>Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Profiling.Core">
@@ -1333,12 +1338,12 @@
       <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.UI.Editor">
@@ -1417,12 +1422,12 @@
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
@@ -1483,6 +1488,10 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

@@ -1,2 +1,12 @@
 fileFormatVersion: 2
 guid: 20890bac69523442b9d71ae73818d73c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - icebergObject: {fileID: 919132149155446097, guid: a873ecdf45911054f874d7ee444d1c4c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -36,15 +36,15 @@ public class SnowMan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Snowman frame");
-        if (Input.GetMouseButtonDown(0)) // Left mouse button
-        {
-            if(headHits<4){
-                RegisterHit("head");
-            }else{
-                RegisterHit("torso");
-            }
-        }
+        // Debug.Log("Snowman frame");
+        // if (Input.GetMouseButtonDown(0)) // Left mouse button
+        // {
+        //     if(headHits<4){
+        //         RegisterHit("head");
+        //     }else{
+        //         RegisterHit("torso");
+        //     }
+        // }
     }
 
     // Call this function when the snowman is hit
@@ -57,8 +57,12 @@ public class SnowMan : MonoBehaviour
         }
         else if (hitArea == "torso")
         {
-            torsoHits++;
-            UpdateTorso();
+            headHits++;
+            UpdateHead();
+            if(headHits>=3){
+                torsoHits++;
+                UpdateTorso();
+            }
         }
     }
 
