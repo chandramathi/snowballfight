@@ -144,12 +144,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6258386455056156202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 085b0fbe5dd8e4589b5339952be6027c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  snowballPrefab: {fileID: 6258386455056156202}
-  spawnPoint: {fileID: 0}
   throwForce: 10
-  maxSnowballs: 20
+  snowballPrefab: {fileID: 6258386455056156202}
+  throwPoint: {fileID: 0}

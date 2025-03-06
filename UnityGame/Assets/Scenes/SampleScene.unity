@@ -816,14 +816,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647429084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 085b0fbe5dd8e4589b5339952be6027c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  throwForce: 10
   snowballPrefab: {fileID: 6258386455056156202, guid: 839e5205af814427b8698cc8d0895a29, type: 3}
   throwPoint: {fileID: 1870790288}
-  throwForce: 10
 --- !u!54 &647429090
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -851,6 +851,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &647429095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647429084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37156f64b26fa452dbf5ec4921a258e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &664836052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1050410447279249117, guid: 93c090d379f1544009657d3b2ead2dbd, type: 3}
@@ -1280,7 +1292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7892569878923441547, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: 0.985
       objectReference: {fileID: 0}
     - target: {fileID: 7892569878923441547, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1318,12 +1330,18 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7405002800903335729, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1886034985}
     - targetCorrespondingSourceObject: {fileID: 8396380662661366630, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 647429090}
     - targetCorrespondingSourceObject: {fileID: 8396380662661366630, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 647429089}
+    - targetCorrespondingSourceObject: {fileID: 8396380662661366630, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 647429095}
   m_SourcePrefab: {fileID: 100100000, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
 --- !u!1001 &1428828893
 PrefabInstance:
@@ -1449,6 +1467,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3556909036817548921, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
   m_PrefabInstance: {fileID: 1275534182}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1886034983 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7405002800903335729, guid: 55e2cd8d490ecf04e9d0caca2a6a52d7, type: 3}
+  m_PrefabInstance: {fileID: 1275534182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1886034985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886034983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085b0fbe5dd8e4589b5339952be6027c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwForce: 10
+  snowballPrefab: {fileID: 6258386455056156202, guid: 839e5205af814427b8698cc8d0895a29, type: 3}
+  throwPoint: {fileID: 0}
 --- !u!1 &1901281226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: d95514158e5c315448fe88a9e7787701, type: 3}
