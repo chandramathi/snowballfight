@@ -14,6 +14,9 @@ public class PenguinMovement : MonoBehaviour
     private float minX, maxX, minZ, maxZ;
     private Vector3 moveDirection; 
 
+    public float avoidDistance = 1.0f;
+    public float avoidForce = 1.0f;
+
     void Start()
     {
         SetRandomDirection();
@@ -93,6 +96,42 @@ public class PenguinMovement : MonoBehaviour
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 2f);
+        }
+    }
+
+    void AvoidOtherPenguins()
+    {
+        // Find all penguins in the scene by tag
+        GameObject[] penguins = GameObject.FindGameObjectsWithTag("Penguin");
+
+        // We'll accumulate a "push away" vector
+        Vector3 avoidanceVector = Vector3.zero;
+        int closePenguinCount = 0;
+
+        foreach (GameObject p in penguins)
+        {
+            // Skip checking against ourself
+            if (p == this.gameObject) continue;
+
+            float distance = Vector3.Distance(p.transform.position, transform.position);
+            if (distance < avoidDistance)
+            {
+                closePenguinCount++;
+                // Push away from the other penguin (the closer, the stronger the push)
+                Vector3 pushDir = (transform.position - p.transform.position).normalized;
+                // Optionally scale by how close they are, e.g. 1/distance
+                avoidanceVector += pushDir * (avoidForce / distance);
+            }
+        }
+
+        // If at least one penguin is close, adjust our moveDirection
+        if (closePenguinCount > 0)
+        {
+            avoidanceVector.y = 0f; // stay on the XZ plane
+            // Add this avoidance vector to our current direction
+            moveDirection += avoidanceVector;
+            // Normalize so we don't get super-fast speeds
+            moveDirection.Normalize();
         }
     }
 }
