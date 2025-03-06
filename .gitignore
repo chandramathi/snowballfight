@@ -1,9 +1,11 @@
 /UnityGame/[Libraries]
 /UnityGame/[Ll]ibrary/
-
+/Library/
+/My project/Library/
+/second attempt/
 # User-specific files
 /UnityGame/UserSettings/
-
+/UnityGame/Assembly-CSharp.csproj
 # Build folders
 /UnityGame/[Bb]uild/
 #[Bb]uilds/
@@ -15,6 +17,7 @@
 .user
 .userprefs
 *.log
+/UnityGame/Logs/
 
 # Build results
 /UnityGame/build/
@@ -41,4 +44,7 @@
 /UnityGame/Temp/
 
 # Unity auto-generated file
-/UnityGame/obj/
+/UnityGame/obj/ 
+UnityGame/Assembly-CSharp-Editor.csproj
+UnityGame/Assembly-CSharp.csproj
+*.csproj
