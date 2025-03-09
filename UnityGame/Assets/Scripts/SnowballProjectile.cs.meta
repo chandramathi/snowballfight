@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 262377e82b5624cf89bbd4dcd3cf2022
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snowShatterEffect: {fileID: 3338330697776198784, guid: eebc64a8063a74add8d6e080522b197a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
