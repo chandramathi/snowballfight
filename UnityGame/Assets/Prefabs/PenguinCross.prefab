@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1128258574302276260}
   m_Layer: 0
   m_Name: Beak
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 7408765165271314129}
   m_Layer: 0
   m_Name: Left Pupil
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +136,7 @@ Transform:
   m_GameObject: {fileID: 366083644837211891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.43615782, y: 0.301291, z: -0.049999997}
+  m_LocalPosition: {x: 0.447, y: 0.319, z: -0.01}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.65}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -225,10 +225,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7651511759736030131}
-  - component: {fileID: 8317834247991080075}
+  - component: {fileID: -8941139252865721331}
+  - component: {fileID: 2573609072568301071}
   m_Layer: 0
-  m_Name: Penguin
-  m_TagString: Penguin
+  m_Name: PenguinCross
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,18 +260,34 @@ Transform:
   - {fileID: 4846731212797932347}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8317834247991080075
+--- !u!114 &-8941139252865721331
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050410447279249117}
-  m_Enabled: 1
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20890bac69523442b9d71ae73818d73c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  changeDirectionInterval: 3
+  icebergObject: {fileID: 0}
+--- !u!114 &2573609072568301071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050410447279249117}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c694bc9994bf4916be9dadad7854edb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crossPenguinPrefab: {fileID: 0}
 --- !u!1 &1377846707870743597
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,7 +302,7 @@ GameObject:
   - component: {fileID: 7937504470011481954}
   m_Layer: 0
   m_Name: Right Eyeball
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -393,7 +410,7 @@ GameObject:
   - component: {fileID: 8471622845233729651}
   m_Layer: 0
   m_Name: Right Wing
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -444,7 +461,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01959b0c1bc4343f4a57723f14ef1538, type: 2}
+  - {fileID: 2100000, guid: 68b650d38e8414da09415df1160d3330, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -503,7 +520,7 @@ GameObject:
   - component: {fileID: 1553532744786060647}
   m_Layer: 0
   m_Name: Right Pupil
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +534,7 @@ Transform:
   m_GameObject: {fileID: 3336311419777511096}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.043842167, y: 0.301291, z: -0.049999997}
+  m_LocalPosition: {x: -0.073, y: 0.324, z: -0.01}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.65}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -611,7 +628,7 @@ GameObject:
   - component: {fileID: 3660732913895749013}
   m_Layer: 0
   m_Name: Right Foot
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -719,7 +736,7 @@ GameObject:
   - component: {fileID: 317800772864442470}
   m_Layer: 0
   m_Name: Left Wing
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -770,7 +787,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01959b0c1bc4343f4a57723f14ef1538, type: 2}
+  - {fileID: 2100000, guid: 68b650d38e8414da09415df1160d3330, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -829,7 +846,7 @@ GameObject:
   - component: {fileID: 9076574046824134830}
   m_Layer: 0
   m_Name: Left Foot
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -937,7 +954,7 @@ GameObject:
   - component: {fileID: 6568863621180776163}
   m_Layer: 0
   m_Name: Left Eyeball
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1045,7 +1062,7 @@ GameObject:
   - component: {fileID: 6760704534941645770}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1096,7 +1113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 01959b0c1bc4343f4a57723f14ef1538, type: 2}
+  - {fileID: 2100000, guid: 68b650d38e8414da09415df1160d3330, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1155,7 +1172,7 @@ GameObject:
   - component: {fileID: 6697283311673517117}
   m_Layer: 0
   m_Name: Tummy
-  m_TagString: Penguin
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
