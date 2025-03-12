@@ -80,9 +80,11 @@
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/FirstPersonAudio.cs" />
     <Compile Include="Assets/Scripts/PenguinReaction.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/Jump.cs" />
+    <Compile Include="Assets/SnowballThrower.cs" />
     <Compile Include="Assets/Scripts/SnowMan.cs" />
     <Compile Include="Assets/Scripts/PenguinMovemnt.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/SnowballProjectile.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs" />
