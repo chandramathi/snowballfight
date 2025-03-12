@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1128258574302276260}
   m_Layer: 0
   m_Name: Beak
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 7408765165271314129}
   m_Layer: 0
   m_Name: Left Pupil
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: -8941139252865721331}
   m_Layer: 0
   m_Name: Penguin
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 7937504470011481954}
   m_Layer: 0
   m_Name: Right Eyeball
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 8471622845233729651}
   m_Layer: 0
   m_Name: Right Wing
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 1553532744786060647}
   m_Layer: 0
   m_Name: Right Pupil
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 3660732913895749013}
   m_Layer: 0
   m_Name: Right Foot
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 317800772864442470}
   m_Layer: 0
   m_Name: Left Wing
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,7 +832,7 @@ GameObject:
   - component: {fileID: 9076574046824134830}
   m_Layer: 0
   m_Name: Left Foot
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,7 +940,7 @@ GameObject:
   - component: {fileID: 6568863621180776163}
   m_Layer: 0
   m_Name: Left Eyeball
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1048,7 +1048,7 @@ GameObject:
   - component: {fileID: 6760704534941645770}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1158,7 +1158,7 @@ GameObject:
   - component: {fileID: 6697283311673517117}
   m_Layer: 0
   m_Name: Tummy
-  m_TagString: Untagged
+  m_TagString: penguin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

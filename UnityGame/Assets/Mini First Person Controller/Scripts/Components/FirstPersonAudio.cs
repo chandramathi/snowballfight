@@ -83,7 +83,7 @@ public class FirstPersonAudio : MonoBehaviour
         }
         else
         {
-            SetPlayingMovingAudio(null);
+            // SetPlayingMovingAudio(null);
         }
 
         // Remember lastCharacterPosition.
@@ -97,17 +97,28 @@ public class FirstPersonAudio : MonoBehaviour
     /// <param name="audioToPlay">Audio that should be playing.</param>
     void SetPlayingMovingAudio(AudioSource audioToPlay)
     {
-        // Pause all MovingAudios.
-        foreach (var audio in MovingAudios.Where(audio => audio != audioToPlay && audio != null))
-        {
-            audio.Pause();
-        }
+        // If there is a new audio to play, stop any currently playing audio from MovingAudios
+        // if (audioToPlay && !audioToPlay.isPlaying)
+        // {
+        //     foreach (var audio in MovingAudios.Where(audio => audio != audioToPlay && audio != null && audio.isPlaying))
+        //     {
+        //         audio.Pause();
+        //     }
 
-        // Play audioToPlay if it was not playing.
-        if (audioToPlay && !audioToPlay.isPlaying)
-        {
-            audioToPlay.Play();
-        }
+        //     // Play the selected audio if it's not already playing.
+        //     if (!audioToPlay.isPlaying)
+        //     {
+        //         audioToPlay.Play();
+        //     }
+        // }
+        // // If no audio to play (movement stopped), pause all moving audio.
+        // else
+        // {
+        //     foreach (var audio in MovingAudios.Where(audio => audio != null && audio.isPlaying))
+        //     {
+        //         audio.Pause();
+        //     }
+        // }
     }
 
     #region Play instant-related audios.

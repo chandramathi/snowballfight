@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61009
+63200
 -job-worker-count
 5
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/muzhumathimurugadass/Documents/snow
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8622562816]  Target information:
 
-Player connection [8622562816]  * "[IP] 192.168.0.171 [Port] 0 [Flags] 2 [Guid] 3318857924 [EditorId] 3318857924 [Version] 1048832 [Id] OSXEditor(0,Chandramathis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8622562816]  * "[IP] 192.168.0.171 [Port] 0 [Flags] 2 [Guid] 2224673180 [EditorId] 2224673180 [Version] 1048832 [Id] OSXEditor(0,Chandramathis-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8622562816] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8622562816] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 8.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.32f1 (b2e806cf271c)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -97,43 +97,43 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56323
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56359
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001356 seconds.
-- Loaded All Assemblies, in  0.250 seconds
+Registered in 0.001527 seconds.
+- Loaded All Assemblies, in  0.268 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.220 seconds
-Domain Reload Profiling: 470ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.240 seconds
+Domain Reload Profiling: 508ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (83ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (92ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (102ms)
-			TypeCache.Refresh (101ms)
-				TypeCache.ScanAssembly (90ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (95ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (220ms)
+	FinalizeReload (241ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (189ms)
+		SetupLoadedEditorAssemblies (207ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,216 +143,1546 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.648 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1209ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (81ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (520ms)
-		LoadAssemblies (356ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (408ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (122ms)
 			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (563ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (561ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (471ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7029 unused Assets / (2.7 MB). Loaded Objects now: 7667.
-Memory consumption went from 167.0 MB to 164.2 MB.
-Total: 10.343791 ms (FindLiveObjects: 0.425208 ms CreateObjectMapping: 0.253667 ms MarkObjects: 7.761791 ms  DeleteObjects: 1.902833 ms)
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7076 unused Assets / (4.4 MB). Loaded Objects now: 7716.
+Memory consumption went from 167.7 MB to 163.3 MB.
+Total: 10.104625 ms (FindLiveObjects: 1.380500 ms CreateObjectMapping: 0.229083 ms MarkObjects: 6.468417 ms  DeleteObjects: 2.026375 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1267759.638789 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.0190095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.028197 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(0fd8b293284934d9bb49858a0ad5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(0fd8b293284934d9bb49858a0ad5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '810260e2d84a413af8d536912741bae9') in 0.00207925 seconds
+  Time since last request: 1271889.716778 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle
+  artifactKey: Guid(0645277d31f5c47afa233143b7b9591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle using Guid(0645277d31f5c47afa233143b7b9591b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd702d933fe261b2e1f917df1900c2d') in 0.201205959 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.090724 seconds.
-  path: Assets/Prefabs/Hand.prefab
-  artifactKey: Guid(930b7a19d446f4b4c9c810e37e84e625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hand.prefab using Guid(930b7a19d446f4b4c9c810e37e84e625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b03269d3d96f71e41e273e13e8fd55e8') in 2.628774292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+  Time since last request: 1.233198 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes
+  artifactKey: Guid(dd9cb08ab7f48486bb268cc5894e9937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes using Guid(dd9cb08ab7f48486bb268cc5894e9937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5338f7b39cad9de1cc2ac3b7fca4bd79') in 0.001074958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.971518 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_1.unity
+  artifactKey: Guid(192656d3a375844eaad961dc766bbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_1.unity using Guid(192656d3a375844eaad961dc766bbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17d9c6eaf4b1b5ebc340855d40e85954') in 0.004095375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.235718 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_2.unity
+  artifactKey: Guid(a2d62f517fb1646259c97fc69bef6cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_2.unity using Guid(a2d62f517fb1646259c97fc69bef6cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d03d1508b98a26a5f211a3afe1350f1') in 0.006231917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.559378 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_3.unity
+  artifactKey: Guid(45591e979460e4042bd829e4715064a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_3.unity using Guid(45591e979460e4042bd829e4715064a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '173e98246cd413dfd7b3e832416e47a3') in 0.002667792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.861490 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_1.mat
+  artifactKey: Guid(84caee56d72a4466e9076998eb87470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_1.mat using Guid(84caee56d72a4466e9076998eb87470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b30e86f14818aba360144cd70bad32c') in 2.127784958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_9.mat
+  artifactKey: Guid(199ec74dd7db84e82bbd4b27430b91f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_9.mat using Guid(199ec74dd7db84e82bbd4b27430b91f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92d7cd28af21131bdb46595b743f53b1') in 0.685392875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_7.mat
+  artifactKey: Guid(51c94b24c8cef4027833db19f03a85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_7.mat using Guid(51c94b24c8cef4027833db19f03a85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58cbfa1d9f39f9db3ba512876ed1b87c') in 0.396619708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_3.mat
+  artifactKey: Guid(bb61c5465d24d439cb7f89e9555697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_3.mat using Guid(bb61c5465d24d439cb7f89e9555697e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a55c61c4840377cacc606748c02836') in 0.628099167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_14.mat
+  artifactKey: Guid(01236f918f0dc4706bddc9b0451a7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_14.mat using Guid(01236f918f0dc4706bddc9b0451a7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c4e2c1d5d3939a8947cacb4459fa14') in 0.533616791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_13.mat
+  artifactKey: Guid(bf7bb71e4046a401b96550057d4ae74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_13.mat using Guid(bf7bb71e4046a401b96550057d4ae74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96881550cb7511ba326ec6ccde6ed41c') in 0.733216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_11.mat
+  artifactKey: Guid(a8e0fce9e9bd14fef8765b694a556d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_11.mat using Guid(a8e0fce9e9bd14fef8765b694a556d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d8c04adfe739f60b5909eee1c865f60') in 0.575028833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_8.mat
+  artifactKey: Guid(9009f095cd0184e63bc3337085901ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/aurora_borealis_8.mat using Guid(9009f095cd0184e63bc3337085901ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11862a9a14d4f0416f740d54df7a980c') in 0.203436708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 499.848448 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_7.png
+  artifactKey: Guid(005c795c5a9234fcb95101871784f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_7.png using Guid(005c795c5a9234fcb95101871784f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982d1bfdf93fccb7e3da2365118ded95') in 0.785990209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.114212 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_8.png
+  artifactKey: Guid(dfb8a9eccaf324316af1a26c1e2841f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_8.png using Guid(dfb8a9eccaf324316af1a26c1e2841f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5020d6a3ed7a04bf73891f68546f72d5') in 0.540682208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.856949 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_1.png
+  artifactKey: Guid(457ceffa794144f13b79adacccfea17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_1.png using Guid(457ceffa794144f13b79adacccfea17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73fdbf890657c1043fc6b0c0671971d6') in 1.002459625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_14.png
+  artifactKey: Guid(eee386c57614a41728debf6345233324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_14.png using Guid(eee386c57614a41728debf6345233324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70c709785fa700d4ddcd7cc40ccccd91') in 0.581030708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_15.png
+  artifactKey: Guid(29b5ab98cc6b14f33bcf29ec44d7f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_15.png using Guid(29b5ab98cc6b14f33bcf29ec44d7f75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e20c4da0045becc0ac52ad69f0f54175') in 0.694599959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_10.png
+  artifactKey: Guid(cc739f7d916a545fd973a7f5f1a879af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_10.png using Guid(cc739f7d916a545fd973a7f5f1a879af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67618a38ffa08d1b5d57458fccc7ed94') in 1.014518042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_9.png
+  artifactKey: Guid(0f482ba7d0b144a14a197631b81792a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_9.png using Guid(0f482ba7d0b144a14a197631b81792a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '484fe05f20a587430054286fd5556435') in 0.600420666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_3.png
+  artifactKey: Guid(9687407277cc9450ebeee275aecad62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_3.png using Guid(9687407277cc9450ebeee275aecad62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '162371854c759d84493f9524aacd5beb') in 0.584583417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_11.png
+  artifactKey: Guid(d3ef1075ad2c6419e92f0b686362743f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Textures/aurora_borealis_11.png using Guid(d3ef1075ad2c6419e92f0b686362743f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc09d1d03a15f2fc94c7dd9680fe86e') in 0.571782917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.494089 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_13.unity
+  artifactKey: Guid(b8ab7bbff2235497f9fb681965973c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_13.unity using Guid(b8ab7bbff2235497f9fb681965973c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f80ca880c4541d067088b166dd39c3') in 0.005844291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.013813 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_14.unity
+  artifactKey: Guid(a5e71afe53c904eeb954ce5ae8bcb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_14.unity using Guid(a5e71afe53c904eeb954ce5ae8bcb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0695b504bbbaf8ceb1a1555d177c4716') in 0.000272209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.164236 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_15.unity
+  artifactKey: Guid(6c8d0ec25dbf34ba6901c33b6a5b0379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_15.unity using Guid(6c8d0ec25dbf34ba6901c33b6a5b0379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35a3bba44a6d9f007a5cb1392bab8ee') in 0.001131458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x2a9b87000 may have been prematurely finalized
+Thread 0x28fbcb000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.757 seconds
+- Loaded All Assemblies, in  0.929 seconds
 Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.631 seconds
-Domain Reload Profiling: 1388ms
-	BeginReloadAssembly (287ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (41ms)
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (416ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (66ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (167ms)
 	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (349ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (351ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (143ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7072 unused Assets / (3.9 MB). Loaded Objects now: 7800.
+Memory consumption went from 174.6 MB to 170.7 MB.
+Total: 11.413875 ms (FindLiveObjects: 0.469292 ms CreateObjectMapping: 0.313333 ms MarkObjects: 8.904833 ms  DeleteObjects: 1.725666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28fb8b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (631ms)
+	FinalizeReload (613ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (488ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (276ms)
-			ProcessInitializeOnLoadMethodAttributes (124ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7072 unused Assets / (3.6 MB). Loaded Objects now: 7761.
-Memory consumption went from 183.8 MB to 180.2 MB.
-Total: 12.207750 ms (FindLiveObjects: 0.550834 ms CreateObjectMapping: 0.476209 ms MarkObjects: 9.354041 ms  DeleteObjects: 1.826208 ms)
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7072 unused Assets / (3.3 MB). Loaded Objects now: 7802.
+Memory consumption went from 172.6 MB to 169.3 MB.
+Total: 10.269084 ms (FindLiveObjects: 0.471125 ms CreateObjectMapping: 0.343333 ms MarkObjects: 7.765375 ms  DeleteObjects: 1.688708 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 294.401548 seconds.
-  path: Assets/Prefabs/Penguin.prefab
-  artifactKey: Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Penguin.prefab using Guid(93c090d379f1544009657d3b2ead2dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8514fa4aac67af18ecd82b2babfe4e3a') in 0.340408792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28e46f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (135ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (629ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.8 MB). Loaded Objects now: 7804.
+Memory consumption went from 176.1 MB to 171.4 MB.
+Total: 10.513583 ms (FindLiveObjects: 0.366041 ms CreateObjectMapping: 0.324584 ms MarkObjects: 7.685416 ms  DeleteObjects: 2.137250 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/snowman.fbx
-  artifactKey: Guid(193875ebfec8340ca9c90513b9f68855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snowman.fbx using Guid(193875ebfec8340ca9c90513b9f68855) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d883d9b65517ee8099a659a50e4039f') in 0.573935167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.835876 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fbfe96cffc53ff624f4782fad17a952') in 0.107884333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.205114 seconds.
-  path: Assets/Prefabs/snowball.prefab
-  artifactKey: Guid(839e5205af814427b8698cc8d0895a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snowball.prefab using Guid(839e5205af814427b8698cc8d0895a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c937cb7d93477166b85c184fe53b3793') in 0.084950625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.528061 seconds.
-  path: Assets/Resources/Thumbnail.png
-  artifactKey: Guid(6a6fb66cfc8087245b69fdb131c6299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Thumbnail.png using Guid(6a6fb66cfc8087245b69fdb131c6299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b407745ecbb5223b4a8fca812a10c95') in 0.034963333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x17df8b000 may have been prematurely finalized
+Thread 0x28b28b000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.652 seconds
-Refreshing native plugins compatible for Editor in 6.16 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 7.11 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.607 seconds
-Domain Reload Profiling: 1262ms
-	BeginReloadAssembly (237ms)
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (43ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (102ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (82ms)
 	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (364ms)
-		LoadAssemblies (251ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (225ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (13ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (607ms)
+			BuildScriptInfoCaches (151ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (610ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.5 MB). Loaded Objects now: 7806.
+Memory consumption went from 175.9 MB to 171.4 MB.
+Total: 11.208166 ms (FindLiveObjects: 0.463791 ms CreateObjectMapping: 0.358625 ms MarkObjects: 8.044667 ms  DeleteObjects: 2.340833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.691 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (607ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (474ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (266ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7073 unused Assets / (4.6 MB). Loaded Objects now: 7825.
-Memory consumption went from 192.2 MB to 187.6 MB.
-Total: 15.257834 ms (FindLiveObjects: 0.477375 ms CreateObjectMapping: 0.417417 ms MarkObjects: 12.090917 ms  DeleteObjects: 2.271958 ms)
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.5 MB). Loaded Objects now: 7808.
+Memory consumption went from 175.7 MB to 171.2 MB.
+Total: 10.949667 ms (FindLiveObjects: 0.428625 ms CreateObjectMapping: 0.285291 ms MarkObjects: 7.994917 ms  DeleteObjects: 2.240542 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.591 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.6 MB). Loaded Objects now: 7810.
+Memory consumption went from 175.5 MB to 170.9 MB.
+Total: 10.989125 ms (FindLiveObjects: 0.481500 ms CreateObjectMapping: 0.422958 ms MarkObjects: 7.641917 ms  DeleteObjects: 2.442333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 836.039273 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_1.unity
+  artifactKey: Guid(192656d3a375844eaad961dc766bbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_1.unity using Guid(192656d3a375844eaad961dc766bbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bfa23236d7093e61a468b6a862b055f') in 0.020081583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.545 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.608 seconds
+Domain Reload Profiling: 1156ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.4 MB). Loaded Objects now: 7812.
+Memory consumption went from 175.3 MB to 169.9 MB.
+Total: 12.973959 ms (FindLiveObjects: 0.509791 ms CreateObjectMapping: 0.427125 ms MarkObjects: 9.307625 ms  DeleteObjects: 2.729167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.489735 seconds.
+  path: Assets/Prefabs/iceberg.prefab
+  artifactKey: Guid(065ce1db0602bf44cb88433f0779785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/iceberg.prefab using Guid(065ce1db0602bf44cb88433f0779785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3424a511e3f890a5156e77d2fe0bb9c7') in 0.542826875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.614 seconds
+Domain Reload Profiling: 1250ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (147ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7086 unused Assets / (5.2 MB). Loaded Objects now: 7834.
+Memory consumption went from 184.4 MB to 179.2 MB.
+Total: 12.422750 ms (FindLiveObjects: 0.491583 ms CreateObjectMapping: 0.421500 ms MarkObjects: 8.582000 ms  DeleteObjects: 2.927417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.588 seconds
+Domain Reload Profiling: 1208ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (147ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (464ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.8 MB). Loaded Objects now: 7836.
+Memory consumption went from 184.0 MB to 179.2 MB.
+Total: 13.326375 ms (FindLiveObjects: 0.533916 ms CreateObjectMapping: 0.446792 ms MarkObjects: 9.411333 ms  DeleteObjects: 2.934084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.617 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.6 MB). Loaded Objects now: 7838.
+Memory consumption went from 183.7 MB to 178.1 MB.
+Total: 12.349833 ms (FindLiveObjects: 0.531541 ms CreateObjectMapping: 0.415917 ms MarkObjects: 8.434250 ms  DeleteObjects: 2.967875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.1 MB). Loaded Objects now: 7840.
+Memory consumption went from 183.5 MB to 179.4 MB.
+Total: 12.248625 ms (FindLiveObjects: 0.517917 ms CreateObjectMapping: 0.464041 ms MarkObjects: 8.544375 ms  DeleteObjects: 2.722125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.4 MB). Loaded Objects now: 7842.
+Memory consumption went from 183.2 MB to 177.8 MB.
+Total: 12.154208 ms (FindLiveObjects: 0.506875 ms CreateObjectMapping: 0.367500 ms MarkObjects: 8.463666 ms  DeleteObjects: 2.815875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1425.480970 seconds.
+  path: Assets/Arctic_Fox_Developments
+  artifactKey: Guid(f27c6a146c3b74dae9662f79a30c79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments using Guid(f27c6a146c3b74dae9662f79a30c79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88f9f3cb364ccf36927155a52a3515f5') in 0.030717625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.356216 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Info
+  artifactKey: Guid(d5bc07be65843451eb314a431ad1b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Info using Guid(d5bc07be65843451eb314a431ad1b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6f123b1309b5b6d0789dd812226023e') in 0.001201041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525842 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials
+  artifactKey: Guid(07fcd9307c1454605b230157d18277fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials using Guid(07fcd9307c1454605b230157d18277fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82feb02ab7e142baa35511048a2958b0') in 0.000780166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.474915 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_4.unity
+  artifactKey: Guid(7694c12aeadd042dca380950b58b2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_4.unity using Guid(7694c12aeadd042dca380950b58b2146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef5c1d077f93c9fd1feb669e6a5b364f') in 0.002839541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.019 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1637ms
+	BeginReloadAssembly (406ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (136ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (488ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (615ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.1 MB). Loaded Objects now: 7844.
+Memory consumption went from 183.0 MB to 177.9 MB.
+Total: 11.861750 ms (FindLiveObjects: 0.431167 ms CreateObjectMapping: 0.321458 ms MarkObjects: 8.654417 ms  DeleteObjects: 2.454250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.165360 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_5.unity
+  artifactKey: Guid(a5916487af938419b926de6cf257ce6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_5.unity using Guid(a5916487af938419b926de6cf257ce6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '126cfa644e4b73b37e031e699b7b03b1') in 0.002803459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28b28b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1130ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.4 MB). Loaded Objects now: 7846.
+Memory consumption went from 182.7 MB to 178.4 MB.
+Total: 10.244041 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.259709 ms MarkObjects: 7.661458 ms  DeleteObjects: 1.899583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.738835 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_6.unity
+  artifactKey: Guid(1cac5d4d79fcf4eb192f22ab6ee42730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_6.unity using Guid(1cac5d4d79fcf4eb192f22ab6ee42730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ed2f7ae8a28af242269b14bb9195fd') in 0.0010525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.575 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (589ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.5 MB). Loaded Objects now: 7848.
+Memory consumption went from 182.5 MB to 176.9 MB.
+Total: 10.743333 ms (FindLiveObjects: 0.425083 ms CreateObjectMapping: 0.267125 ms MarkObjects: 7.516333 ms  DeleteObjects: 2.534500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.045792 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_7.unity
+  artifactKey: Guid(c622a0739adc24ef480b0ef8c1844a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_7.unity using Guid(c622a0739adc24ef480b0ef8c1844a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4049a1bda3c34162a8bb82376d4175f2') in 0.000976333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.552 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.591 seconds
+Domain Reload Profiling: 1145ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (457ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (4.4 MB). Loaded Objects now: 7850.
+Memory consumption went from 182.4 MB to 177.9 MB.
+Total: 9.817375 ms (FindLiveObjects: 0.431417 ms CreateObjectMapping: 0.286916 ms MarkObjects: 7.225875 ms  DeleteObjects: 1.872792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.108781 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_8.unity
+  artifactKey: Guid(6d392c38badee43faa241f7457d47095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_8.unity using Guid(6d392c38badee43faa241f7457d47095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8dde246f67141f9f7e87c1a74965e68') in 0.001024542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (373ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (3.9 MB). Loaded Objects now: 7852.
+Memory consumption went from 182.2 MB to 178.3 MB.
+Total: 10.411833 ms (FindLiveObjects: 0.449333 ms CreateObjectMapping: 0.309167 ms MarkObjects: 7.706000 ms  DeleteObjects: 1.947084 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.701509 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_9.unity
+  artifactKey: Guid(39bff3b5539754c71bb96760610b13e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Scenes/aurora_borealis_9.unity using Guid(39bff3b5539754c71bb96760610b13e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9538da3d20daec8bbf5ae9221ea8f9ed') in 0.00125475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.6 MB). Loaded Objects now: 7854.
+Memory consumption went from 182.0 MB to 176.4 MB.
+Total: 11.061417 ms (FindLiveObjects: 0.413750 ms CreateObjectMapping: 0.260375 ms MarkObjects: 7.464083 ms  DeleteObjects: 2.922875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (5.9 MB). Loaded Objects now: 7856.
+Memory consumption went from 181.8 MB to 175.9 MB.
+Total: 13.550917 ms (FindLiveObjects: 0.495417 ms CreateObjectMapping: 0.365291 ms MarkObjects: 8.649792 ms  DeleteObjects: 4.040250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1701.568279 seconds.
+  path: Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/Snow Floor.mat
+  artifactKey: Guid(07c4dac6fa6ee4afdad200c89f319fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arctic_Fox_Developments/Aurora_Borealis_SkyBox_Bundle/Materials/Snow Floor.mat using Guid(07c4dac6fa6ee4afdad200c89f319fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3eb9521a8e3adb7b0664c3680df92db') in 0.384891208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1373ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7086 unused Assets / (4.8 MB). Loaded Objects now: 7878.
+Memory consumption went from 190.8 MB to 186.0 MB.
+Total: 17.438625 ms (FindLiveObjects: 0.647708 ms CreateObjectMapping: 0.629292 ms MarkObjects: 10.115500 ms  DeleteObjects: 6.045417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 121.698325 seconds.
+  path: Assets/Materials/Hand.mat
+  artifactKey: Guid(370e93876c8724bc1877b021fef179da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Hand.mat using Guid(370e93876c8724bc1877b021fef179da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '239def0cdaa1a68a2ca5b8dbd24fc72a') in 0.324766542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Materials/Penguin Orange.mat
+  artifactKey: Guid(1dbb87c72a4b44d3fb547b6e4e7cd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin Orange.mat using Guid(1dbb87c72a4b44d3fb547b6e4e7cd87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '044724c0ea51fb1511634c9e7ee362c1') in 0.007923208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/Penguin White.mat
+  artifactKey: Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Penguin White.mat using Guid(e8f429aecf3f94bbca638369546cae73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b9cd109d9ae385e32c8371215694ec') in 0.009046333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.641 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (128ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7086 unused Assets / (5.1 MB). Loaded Objects now: 7900.
+Memory consumption went from 199.7 MB to 194.5 MB.
+Total: 12.848541 ms (FindLiveObjects: 0.478208 ms CreateObjectMapping: 0.343250 ms MarkObjects: 8.574250 ms  DeleteObjects: 3.452292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.707 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1411ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (6.0 MB). Loaded Objects now: 7902.
+Memory consumption went from 199.2 MB to 193.2 MB.
+Total: 14.051083 ms (FindLiveObjects: 0.588250 ms CreateObjectMapping: 0.574375 ms MarkObjects: 8.696208 ms  DeleteObjects: 4.192000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fb5f000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.04 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7085 unused Assets / (6.4 MB). Loaded Objects now: 7904.
+Memory consumption went from 198.9 MB to 192.6 MB.
+Total: 13.813625 ms (FindLiveObjects: 0.586291 ms CreateObjectMapping: 0.492167 ms MarkObjects: 8.892000 ms  DeleteObjects: 3.843083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
